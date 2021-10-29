@@ -1,0 +1,21 @@
+.bg-black{
+    padding-bottom:10px;
+}
+
+.text-content{ 
+    text-transform: uppercase;
+}
+
+.pictures{
+    height: 400px;
+    width:auto;
+    margin-top:12px;
+    transition: transform .2s;
+}
+.pictures:hover{
+    transform: scale(1.1);
+}
+
+.Hublot{
+    display: none;
+}

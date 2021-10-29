@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fira+Sans:wght@600&family=Montserrat&family=Open+Sans:wght@500&family=Roboto:wght@500;900&display=swap');
+body {
+  font-family: 'Fira Sans', sans-serif;
+
+}
+
+.ghost-black{
+    background-color:#171717;
+    height: 170px;
+    width:100%;
+}
+.btn-1{
+    text-transform: uppercase;
+    height: 50px;
+    width:266px;
+    border: 2px solid #fff;
+    background-color:#171717;
+    margin: auto;
+    text-align: center;
+    object-position: center;
+    color: #fff;
+    position: relative;
+    transition: all 0.3s ease-out;
+    z-index: 1;
+    overflow:hidden;
+}
+.btn-bg{
+  margin-top: -13px;
+    height: 65px;
+    width:266px;
+    margin: auto;
+    font-size: bold;
+    text-transform: uppercase;
+    border: 2px solid #fff;
+    background-color:#fff;
+    text-align: center;
+    object-position: center;
+    color: #000;
+    margin-bottom: 17px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s;
+}
+
+  .btn-bg:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    z-index: -2;
+  }
+  .btn-bg:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #380036;
+    transition: all 0.3s;
+    z-index: -1;
+  }
+  .btn-bg:hover {
+    color: #fff;
+  }
+  .btn-bg:hover:before {
+    width: 100%;
+  }
+  .btn-bg:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    z-index: -2;
+  }
+  .btn-1:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #380036;
+    transition: all 0.3s;
+    z-index: -1;
+  }
+  .btn-1:hover {
+    color: #fff;
+  }
+  .btn-1:hover:before {
+    width: 100%;
+  }

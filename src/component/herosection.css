@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fira+Sans:wght@600&family=Montserrat&family=Open+Sans:wght@500&family=Roboto:wght@500;900&display=swap');
+
+
+.hero-section{
+    background-color: #fff;
+    background-image: linear-gradient(41deg, #000 0%, #380036 74%);
+    background-repeat: no-repeat;
+    background-position: cover;
+    height: 120vh;
+    width: 100%;
+    display: flex;
+    object-fit: contain;
+    object-position: right;
+    overflow: hidden;
+}
+.text-content {
+    font-family: 'Fira Sans', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.hover-underline-animation1 {
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .hover-underline-animation1:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 15px;
+    left: 0;
+    background-color: #fff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation1:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+ img{
+   width: 50%;
+   margin-bottom: -30rem;
+   object-fit: contain;
+   margin-left: auto;
+ }
